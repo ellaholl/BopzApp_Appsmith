@@ -7,7 +7,7 @@
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
-        "url": "web:4000/a/artistPlan/{{artist_id.text}}"
+        "url": "web:4000/a/artistPlan/{{appsmith.URL.queryParams.ArtistID}}"
       },
       "invalids": [],
       "messages": [],
@@ -46,7 +46,7 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "artist_id.text"
+      "appsmith.URL.queryParams.ArtistID"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,

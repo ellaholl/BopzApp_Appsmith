@@ -271,7 +271,7 @@
                   "cellBackground": ""
                 }
               },
-              "onRowSelected": "{{navigateTo('Listener Song',{specific song name} + '/', 'SAME_WINDOW')}}",
+              "onRowSelected": "{{resetWidget(\"Audio1\",true)}}",
               "key": "8ice3j6f83",
               "canFreezeColumn": true,
               "isDeprecated": false,
@@ -619,6 +619,39 @@
               "maxDynamicHeight": 9000,
               "width": 456,
               "minDynamicHeight": 24
+            },
+            {
+              "widgetName": "Audio1",
+              "displayName": "Audio",
+              "iconSVG": "/static/media/icon.cb54df7a09016b0af5e520895be927b9.svg",
+              "searchTags": [
+                "mp3",
+                "sound",
+                "wave",
+                "player"
+              ],
+              "topRow": 3,
+              "bottomRow": 7,
+              "parentRowSpace": 10,
+              "type": "AUDIO_WIDGET",
+              "hideCard": false,
+              "animateLoading": true,
+              "parentColumnSpace": 13.5,
+              "leftColumn": 31,
+              "dynamicBindingPathList": [],
+              "key": "l9i3sypcyd",
+              "isDeprecated": false,
+              "rightColumn": 59,
+              "widgetId": "wmerkvcrde",
+              "minWidth": 450,
+              "isVisible": true,
+              "version": 1,
+              "url": "https://assets.appsmith.com/widgets/birds_chirping.mp3",
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "responsiveBehavior": "fill",
+              "autoPlay": false
             }
           ]
         },

@@ -42,6 +42,9 @@
   "unreadCommentThreads": 0,
   "color": "#E4D8CC",
   "icon": "arrow-up",
+  "unpublishedAppLayout": {
+    "type": "FLUID"
+  },
   "unpublishedCustomJSLibs": [],
   "publishedCustomJSLibs": [],
   "evaluationVersion": 2,
